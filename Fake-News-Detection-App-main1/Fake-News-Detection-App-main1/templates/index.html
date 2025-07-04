@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake News Detection</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    }
+  </style>
+</head>
+<body class="text-white">
+  <!-- Navigation -->
+  <header class="bg-gray-900 shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-green-400">📰 Fake News Detection</h1>
+      <nav class="space-x-4">
+        <a href="/" class="hover:text-green-300">Home</a>
+        <a href="/prediction" class="hover:text-green-300">Prediction</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-20 px-4 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Detect Fake News Using Machine Learning</h2>
+    <p class="max-w-2xl mx-auto text-lg text-gray-300 mb-6">A smart tool to identify and filter false information. Fight misinformation with AI and help create a reliable digital environment.</p>
+    <a href="/prediction" class="bg-green-500 hover:bg-green-600 px-6 py-3 text-white rounded-full text-lg font-semibold">Try Now</a>
+  </section>
+
+  <!-- Facts Section -->
+  <section class="bg-white text-gray-800 py-16">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-12">Interesting Facts</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div class="bg-gray-100 p-6 rounded shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">🧠 Spreads Faster</h4>
+          <p>Fake news spreads 6x faster than true news on platforms like Twitter.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">📱 Social Media</h4>
+          <p>Over 50% of users encounter fake news daily via Facebook, WhatsApp & Twitter.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">🤖 AI to the Rescue</h4>
+          <p>ML models like BERT and LSTM help identify misinformation effectively.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">⚠️ Real Impact</h4>
+          <p>Fake news can influence elections, spread fear, and harm public health.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 px-4 bg-gray-800">
+    <h3 class="text-3xl font-bold text-center mb-10">What People Say</h3>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+        <p>“A much-needed project to combat misinformation. Smart use of machine learning!”</p>
+        <div class="mt-4 font-bold text-green-300">🧑‍🎓 Rohan Verma</div>
+        <span class="text-sm text-gray-400">Final Year Student</span>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+        <p>“Accurate, fast, and easy to use. Great tool for media monitoring.”</p>
+        <div class="mt-4 font-bold text-green-300">👩‍💼 Priya Desai</div>
+        <span class="text-sm text-gray-400">Project Evaluator</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center py-6">
+    <p class="text-gray-400">© 2025 Fake News Detection | Developed by Jai Nandan</p>
+    <p class="text-gray-500 text-sm">Using Python, Flask, and ML Models (Passive Aggressive, Logistic Regression)</p>
+  </footer>
+</body>
+</html>
