@@ -36,3 +36,8 @@ Algorithms like Logistic Regression, Naive Bayes, or LSTM in training phase
 
 Training done in Jupyter Notebook, then exported to .tflite
 
+output
+
+
+![fake news detection-Cover](https://github.com/user-attachments/assets/b5797a63-f1be-4fe1-89ca-83ea0e655763)
+
