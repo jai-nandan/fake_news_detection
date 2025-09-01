@@ -1,11 +1,11 @@
 {
   "functions": {
     "api/app.py": {
-      "runtime": "python3.9"
+      "runtime": "vercel-python@0.6.0"
     }
   },
   "routes": [
     { "src": "/", "dest": "/api/app.py" },
-    { "src": "/predict", "dest": "/api/app.py" }
+    { "src": "/prediction", "dest": "/api/app.py" }
   ]
 }
